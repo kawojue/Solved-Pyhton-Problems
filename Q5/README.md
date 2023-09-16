@@ -4,9 +4,9 @@ The main functions of the ATM simulator may be summarized as follows:
 Before performing any transaction, the user must enter his or her username and PIN (personal identification number) at an input screen/prompt (GUI or otherwise).
 The system must validate the user information against the information that is pre-built into the system.
 For the purposes of this project, the system will have the following three username: PIN pairings to start.
-User1: 1234
-User2: 2222
-User3: 3333
+User1: 1234,
+User2: 2222,
+User3: 3333,
 These can be stored in volatile (temporary) storage or in a file or series of files depending on whether you opt for the Basic Functionality or the Extended Functionality.
 The prompt for the user information should allow for three attempts. If the user does not enter a valid username: PIN combination, the system must display an appropriate error message after each attempt and re-prompt. After the third invalid attempt, the system simply ends the program
 
@@ -22,7 +22,7 @@ Once access has been authorized, the main transaction screen of the application 
 2. Delete user
 3. Plot Account Balances
 4. Exit
-If the user is a regular user The Menu options are
+If the user is a regular user The Menu options are:
 1. Account Balance
 2. Withdraw
 3. Deposit
