@@ -1,3 +1,3 @@
-# Q4
+# Q4 - Steps Counter
 
 A Personal Fitness tracker is a wearable device that tracks one’s physical activity, calories burned, heart rate sleeping patterns and so on. One common physical activity that is tracked is the number of steps that you take each day. The File named Steps.txt contains the number of steps that a user has made each day for an entire year (Jan 1 to Dec 31). Write a program that reads the file, then displays the average number of steps taken for each month. Assume the data is from a year that is not a leap year, therefore, February has 28 days. The program should then count the number of days in the year that the user has made 10,000 steps or more and displays the number of days with 10000 or more steps.
